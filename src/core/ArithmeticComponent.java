@@ -12,6 +12,9 @@ public class ArithmeticComponent {
 		System.out.println("Difference of " + a + " and " + b + " = " + substract(a, b));
 		System.out.println("Product of " + a + " and " + b + " = " + multiply(a, b));
 		System.out.println("Division of " + a + " and " + b + " = " + divide(a, b));
+		
+		System.out.println("End of the program");
+		
 	}
 	
 	//local varaiables
