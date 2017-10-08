@@ -2,6 +2,8 @@ package core.inheritance.abstrct;
 
 public class AbstractClassDemo {
 
+	//https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html
+	//https://roseindia.net/java/example/java/core/java-abstract-class-example.shtml
 	public static void main(String[] args) {
 		//Circle graphic1 = new Circle();
 		//Parent c = new Child();
