@@ -8,41 +8,41 @@ public class Employee {
 	private int age;
 	private String gender;
 	
-	public String getFirstName() {
+	protected String getFirstName() {
 		return firstName;
 	}
-	public void setFirstName(String firstName) {
+	
+	//no modifier
+	void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
 	
-	public String getLastName() {
+	protected String getLastName() {
 		return lastName;
 	}
-	public void setLastName(String lastName) {
+	protected void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
 	
-	public String getMiddleName() {
+	protected String getMiddleName() {
 		return middleName;
 	}
-	public void setMiddleName(String middleName) {
+	protected void setMiddleName(String middleName) {
 		this.middleName = middleName;
 	}
 	
-	public int getAge() {
+	protected int getAge() {
 		return age;
 	}
 	
-	public void setAge(int age) {
+	protected void setAge(int age) {
 		this.age = age;
 	}
 	
-	public String getGender() {
+	protected String getGender() {
 		return gender;
 	}
-	public void setGender(String gender) {
+	protected void setGender(String gender) {
 		this.gender = gender;
 	}
-	
-	
 }

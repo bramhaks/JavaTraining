@@ -1,5 +1,6 @@
 package core.inheritance;
 
+
 public class ProcessEmployee {
 
 	/**
