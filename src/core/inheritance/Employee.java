@@ -8,6 +8,16 @@ public class Employee {
 	private int age;
 	private String gender;
 	
+	private String nicksName;
+	
+	public String getNicksName() {
+		return nicksName;
+	}
+
+	public void setNicksName(String nicksName) {
+		this.nicksName = nicksName;
+	}
+
 	protected String getFirstName() {
 		return firstName;
 	}

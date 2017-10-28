@@ -44,6 +44,18 @@ public class DataTypes {
 		System.out.println(c);
 		System.out.println(d);
 		System.out.println(e);
+		
+		//object to primitive data type.
+		int a1 = a.intValue();
+		float b1 = b.floatValue();
+		double c1 = c.doubleValue();
+		boolean e1 = e.booleanValue();
+		System.out.println("a1= " + a1 + " b1= "+ b1 + " c1= "+c1+ "e1="+e1);
+		
+		String strInt = "10";
+		int strToInt = Integer.parseInt(strInt);
+		
+		System.out.println(strInt + ":" + strToInt);
 	}
 	
 	//wrapper to primitive conversion.
