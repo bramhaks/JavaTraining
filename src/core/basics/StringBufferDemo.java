@@ -20,5 +20,9 @@ public class StringBufferDemo {
 		name.append(" ");
 		name.append(lName);
 		System.out.println(name.toString());
+		
+		
+		//reverse string 
+		//how many words in a setence.
 	}
 }
